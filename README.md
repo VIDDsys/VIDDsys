@@ -1,22 +1,30 @@
-# 冷冷冰冰 · VIDDsys
+# VIDDsys
 
-> 折腾 Web / AI Agent 的独立开发者，喜欢从零搭自己的东西。
+独立开发者，专注 Web 全栈与 AI 工程化：自建高可用站点架构、模型 API 网关，并持续输出 AI Agent 实践内容。
 
-## 站点矩阵
+- 主站：<https://viddsys.com>
+- 镜像站：<https://viddsys.xyz>
 
-| 站点 | 地址 | 说明 |
-|------|------|------|
-| 主站 | [viddsys.com](https://viddsys.com) | 个人数字花园：工具、论坛、下载与聚合服务 |
-| 镜像站 | [viddsys.xyz](https://viddsys.xyz) | 主站镜像与公开服务入口 |
-| AI 中转站 | [api.viddsys.xyz](https://api.viddsys.xyz) | OpenAI 兼容的模型 API 网关，一个 Key 直连多家模型 |
-| AI 学堂 | [viddsys.xyz/learn](https://viddsys.xyz/learn/) | 面向新手的 Agent 上手教程：从对话到让 AI 替你干活 |
+## 项目
 
-## 正在做什么
+### [AI 网关](https://api.viddsys.xyz)
+OpenAI 兼容的多模型 API 网关，统一 Key 管理与额度控制，支持主流大模型接入。
 
-- 🔧 **自建全栈站点**：Nginx + SPA + 后端服务 + SQLite，部署在阿里云 ECS，本地与云端双活
-- 🤖 **AI 工具链**：模型 API 网关、AI 资讯聚合、Agent 实战教程
-- 📖 **写作沉淀**：把踩过的坑写成教程和技能，边学边教
+### [AI 学习](https://viddsys.xyz/learn/)
+系统化的 AI Agent 教程，覆盖从基础概念到浏览器自动化、批量任务的完整实践路径。
 
-## 技术偏好
+### [个人主站](https://viddsys.com)
+自托管的全栈个人平台，集成工具集、社区论坛、下载服务与资讯聚合，采用 Nginx + SPA + SQLite 架构，本地与云端双节点部署。
 
-`Vue` `VitePress` `React` `Node.js` `Python` `Nginx` `SQLite` `AI Agent` `MCP`
+## 技术栈
+
+**前端** Vue / React / VitePress
+**后端** Node.js / Python
+**基础设施** Nginx / 阿里云 ECS / Cloudflare / SQLite
+**AI 工程** AI Agent / MCP / 模型网关 / 提示词工程
+
+## 当前方向
+
+- AI Agent 工作流与工具生态（MCP、Skills）的工程化落地
+- 多模型网关的路由、限流与计费体系
+- 面向初学者的 AI 教学内容建设
