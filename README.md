@@ -1,30 +1,41 @@
 # VIDDsys
 
-独立开发者，专注 Web 全栈与 AI 工程化：自建高可用站点架构、模型 API 网关，并持续输出 AI Agent 实践内容。
+独立开发者。围绕「自托管 + AI 工程化」构建了一条完整的产品线：从底层基础设施，到模型接入层，再到面向用户的教程内容——三者共享同一套架构与设计理念。
 
-- 主站：<https://viddsys.com>
-- 镜像站：<https://viddsys.xyz>
+<div align="center">
 
-## 项目
+**[主站](https://viddsys.com)** · **[AI 网关](https://api.viddsys.xyz)** · **[AI 学习](https://viddsys.xyz/learn/)**
 
-### [AI 网关](https://api.viddsys.xyz)
-OpenAI 兼容的多模型 API 网关，统一 Key 管理与额度控制，支持主流大模型接入。
+</div>
 
-### [AI 学习](https://viddsys.xyz/learn/)
-系统化的 AI Agent 教程，覆盖从基础概念到浏览器自动化、批量任务的完整实践路径。
+---
 
-### [个人主站](https://viddsys.com)
-自托管的全栈个人平台，集成工具集、社区论坛、下载服务与资讯聚合，采用 Nginx + SPA + SQLite 架构，本地与云端双节点部署。
+## 产品线
 
-## 技术栈
+三个产品不是孤立的工具，而是一条自上而下的链路：
 
-**前端** Vue / React / VitePress
-**后端** Node.js / Python
-**基础设施** Nginx / 阿里云 ECS / Cloudflare / SQLite
-**AI 工程** AI Agent / MCP / 模型网关 / 提示词工程
+### AI 网关 → [api.viddsys.xyz](https://api.viddsys.xyz)
 
-## 当前方向
+多模型 API 网关，提供 OpenAI 兼容接口。统一鉴权、额度与计费，上层应用无需关心底层模型差异。
 
-- AI Agent 工作流与工具生态（MCP、Skills）的工程化落地
-- 多模型网关的路由、限流与计费体系
-- 面向初学者的 AI 教学内容建设
+### AI 学习 → [viddsys.xyz/learn](https://viddsys.xyz/learn/)
+
+一套完整的 AI Agent 教程，从核心概念讲到浏览器自动化与批量任务实战。教程中的示例直接基于自建的网关，学与用是同一套东西。
+
+### 个人主站 → [viddsys.com](https://viddsys.com)
+
+承载以上所有服务的平台：工具集、社区、资讯聚合与内容分发。云端与本地双节点部署，静态内容经 CDN 分发。
+
+## 工程实践
+
+- **架构**：单机高密度部署，Nginx 统一调度多站点，节点间可互为镜像
+- **AI 工程**：模型路由、限流与用量治理；Agent 工作流与工具协议（MCP）落地
+- **交付**：所有站点原子化发布，自动回滚，构建即验证
+
+---
+
+<div align="center">
+
+如果这些内容对你有用，欢迎 Star 与交流。
+
+</div>
