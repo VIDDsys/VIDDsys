@@ -38,6 +38,5 @@
 
 <div align="center">
 
-如果这些内容对你有用，欢迎 Star 与交流。
 
 </div>
