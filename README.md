@@ -18,7 +18,7 @@
 
 ### 个人镜像站 → [viddsys.com](https://viddsys.com)
 
-主站的镜像节点，承担内容分发与公开服务入口，保障访问的可用性。
+主站的镜像节点，承担极端情况内容分发与公开服务入口，保障访问的可用性。
 
 ### AI 网关 → [api.viddsys.xyz](https://api.viddsys.xyz)
 
