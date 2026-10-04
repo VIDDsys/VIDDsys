@@ -4,7 +4,7 @@
 
 <div align="center">
 
-**[个人主站](https://viddsys.com)** · **[个人镜像站](https://viddsys.xyz)** · **[AI 网关](https://api.viddsys.xyz)** · **[AI 学习](https://viddsys.xyz/learn/)**
+**[个人主站](https://viddsys.xyz)** · **[个人镜像站](https://viddsys.com)** · **[AI 网关](https://api.viddsys.xyz)** · **[AI 学习](https://viddsys.xyz/learn/)**
 
 </div>
 
@@ -12,11 +12,11 @@
 
 ## 产品线
 
-### 个人主站 → [viddsys.com](https://viddsys.com)
+### 个人主站 → [viddsys.xyz](https://viddsys.xyz)
 
 整个体系的平台底座：工具集、社区、资讯聚合与内容分发。云端与本地双节点部署，静态内容经 CDN 分发。
 
-### 个人镜像站 → [viddsys.xyz](https://viddsys.xyz)
+### 个人镜像站 → [viddsys.com](https://viddsys.com)
 
 主站的镜像节点，承担内容分发与公开服务入口，保障访问的可用性。
 
